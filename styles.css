@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: azure;
+    font-family: Verdana;
+    font-size: 16px;
+}
+    
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+}
+
+form {
+    width: 60vw;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+fieldset {
+    padding: 1.5rem;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    display: inline;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    border-color: black;
+    min-width: 300px;
+}
